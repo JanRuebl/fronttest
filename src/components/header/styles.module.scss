@@ -1,0 +1,17 @@
+@import "../../styles/colors";
+
+.header {
+  background-color: $main-color;
+  color: $font-on-main-color;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+
+.statusbox {
+  width: 256px;
+  color: $font-color;
+  border: 1px solid $border-color;
+  background-color: $background-color;
+}

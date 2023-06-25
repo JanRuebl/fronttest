@@ -1,0 +1,29 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.login {
+  @include border;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fieldwrapper {
+  @include fieldwrapper;
+}
+
+.button {
+  @include button;
+  width: 100%;
+  background-color: $main-color;
+  color: $font-on-main-color;
+}

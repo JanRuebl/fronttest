@@ -1,0 +1,25 @@
+.item {
+  border: 1px solid;
+  border-radius: 5px;
+  width: 350px;
+  padding: 5px;
+}
+
+.titlewrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.buttonwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.del {
+  border: none;
+  background-color: red;
+  cursor: pointer;
+}
